@@ -8,6 +8,7 @@ These tools are intended for anyone interested in performing detailed analyses o
 - **SEC Filings Downloader (`sec-filings-downloader.py`)**: Downloads XBRL and TXT filings using company CIKs.
 - **SEC Metadata Processor (`sec-metadata-processor.py`)**: Extracts and processes financial statements and metadata from filings.
 - **HTML Filings Cleaner (`financial_filings_htm_cleaner.py`)**: Cleans and prepares HTM financial filings for analysis.
+- **Custom HTML Document Loader and Chunking (custom_html_loader_and_chunking.ipynb)**: Load the cleaned HTM financial filings and then perform chunking
 
 ## Features
 - Download filings for multiple companies.
