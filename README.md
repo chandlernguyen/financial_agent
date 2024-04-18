@@ -10,9 +10,10 @@ These tools are intended for anyone interested in performing detailed analyses o
 - **HTML Filings Cleaner (`financial_filings_htm_cleaner.py`)**: Cleans and prepares HTM financial filings for analysis.
 
 ## Features
-- **Comprehensive Data Handling**: From downloading to cleaning, handle all aspects of SEC filings management.
-- **Flexibility**: Download and process filings based on form type and date range.
-- **Customization**: Easy to modify to fit specific needs for different companies' filings.
+- Download filings for multiple companies.
+- Handles both XBRL (zipped) and plain text formats.
+- Filters filings by form type (e.g., 10-K, 10-Q) and date range.
+- Document loader and chunking: refer to the notebook "custom_html_loader_and_chunking.ipynb"
 
 ## Usage
 1. Clone this repository to your local machine.
